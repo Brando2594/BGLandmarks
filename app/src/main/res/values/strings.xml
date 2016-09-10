@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BGLandmarks</string>
+    <string name="eiffel_tower">eiffel-tower</string>
+    <string name="statue_of_liberty">Statue of Liberty</string>
+    <string name="eiffel_tower_paris">Eiffel Tower Paris</string>
+    <string name="great_pyramids_egypt">Great Pyramids Egypt</string>
+    <string name="brandon_gray_apos_s_landmarks">Brandon Gray\'s Landmarks!</string>
+    <string name="the_statue_of_liberty_in_new_york_usa">The Statue of Liberty in New York, USA</string>
+    <string name="the_eiffel_tower_in_paris_france">The Eiffel Tower in Paris, France.</string>
+    <string name="the_great_pyramids_in_egypt">The Great Pyramids in Egypt.</string>
+</resources>

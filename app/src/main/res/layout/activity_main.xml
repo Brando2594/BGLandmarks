@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="csc210bgray.bglandmarks.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brandon_gray_apos_s_landmarks"
+        android:id="@+id/headerTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/statueImageView"
+        android:src="@drawable/statueofliberty"
+        android:layout_below="@+id/headerTextView"
+        android:layout_alignLeft="@+id/towerImageView"
+        android:layout_alignStart="@+id/towerImageView"
+        android:contentDescription="@string/statue_of_liberty" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/towerImageView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/eiffel_tower_paris"
+        android:src="@drawable/eiffeltower" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pyramidImageView"
+        android:layout_below="@+id/towerImageView"
+        android:layout_alignRight="@+id/towerImageView"
+        android:layout_alignEnd="@+id/towerImageView"
+        android:src="@drawable/pyramids"
+        android:contentDescription="@string/great_pyramids_egypt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_statue_of_liberty_in_new_york_usa"
+        android:id="@+id/statueTextView"
+        android:layout_alignBottom="@+id/statueImageView"
+        android:layout_toRightOf="@+id/statueImageView"
+        android:layout_toEndOf="@+id/statueImageView"
+        android:layout_marginBottom="56dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_eiffel_tower_in_paris_france"
+        android:id="@+id/towerTextView"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/towerImageView"
+        android:layout_toEndOf="@+id/towerImageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_great_pyramids_in_egypt"
+        android:id="@+id/pyramidTextView"
+        android:layout_below="@+id/towerImageView"
+        android:layout_alignRight="@+id/towerTextView"
+        android:layout_alignEnd="@+id/towerTextView"
+        android:layout_marginTop="91dp" />
+
+</RelativeLayout>
